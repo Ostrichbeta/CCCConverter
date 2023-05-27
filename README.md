@@ -7,6 +7,8 @@
 
 ### 使用
 
+首先引入該套件，可使用`import cccconverter`或`from cccconverter.convert import *`。
+
 轉換單句：使用`cccconverter.convert`中的`convert_sentence`方法可以將一句話的中文字轉換為對應的港府粵語拼法，如下：
 ```python
 >>> convert_sentence("慈雲圩")
