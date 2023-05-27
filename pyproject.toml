@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cccconverter_ostrichb"
+version = "0.90.0"
+authors = [
+  { name="Ostrichbeta Chan", email="ostrichb@yandex.com" },
+]
+description = "A Hong Kong Government Cantonese Romanisation converter"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Ostrichbeta/CCCConverter"
+"Bug Tracker" = "https://github.com/Ostrichbeta/CCCConverterissues"
