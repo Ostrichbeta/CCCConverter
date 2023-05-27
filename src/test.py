@@ -1,5 +1,6 @@
 import unittest
-from ccccoverter.convert import *
+from cccconverter.convert import *
+from cccconverter.parse_dict import *
 
 
 class TestConvert(unittest.TestCase):
@@ -27,6 +28,11 @@ class TestConvert(unittest.TestCase):
                           ('子',
                            'tsz/tszi/tszu/tsi/tsee/chz/chzi/chzu/chi/chee||'
                            'chz/chzi/chzu/chi/chee/tsz/tszi/tszu/tsi/tsee')])
+
+
+class TestParseDict(unittest.TestCase):
+    def test_get_yuet_dict(self):
+        logging.info(get_yuet_dict())
 
 
 if __name__ == '__main__':

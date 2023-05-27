@@ -2,9 +2,16 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build]
+sources = ["src"]
+
+[tool.hatch.build.targets.wheel]
+sources = ["src"]
+
+
 [project]
 name = "cccconverter_ostrichb"
-version = "0.90.0"
+version = "0.90.2"
 authors = [
   { name="Ostrichbeta Chan", email="ostrichb@yandex.com" },
 ]

@@ -2,7 +2,7 @@ import csv
 import pathlib
 
 
-dict_path = pathlib.Path(__file__).parent.parent.joinpath('dict')
+dict_path = pathlib.Path(__file__).parent.joinpath('dict')
 
 
 def get_initials_dict():
